@@ -1,50 +1,24 @@
-# Basic Git commands
-
-## Initialize a Git repository
-
-> git init
-
-## Add a remote repository
-
-> git remote add origin [repository_url]
+# Git commands w.r.t this repo
 
 ## Clone an existing repository
 
-> git clone [repository_url]
+> git clone https://github.com/Sree0076/BO.git
 
-## Create a new branch
+## Create and switch to new branch
 
-> git checkout -b [branch_name]
-
-## Switch to an existing branch
-
-> git checkout [branch_name]
-
-## Push a branch to the remote repository
-
-> git push -u origin [branch_name]
-
-## Check the status of the repository
-
-> git status
+> git checkout -b melinda
 
 ## Add changes to the staging area
 
-> git add [file_name] or git add .
+> git add .
 
 ## Commit changes 
 
-> git commit -m "Commit message"
+> git commit -m "add: Add git-commands.md with basic git commands"
 
-## Pull updates from the remote repository
+## Push branch to the remote repository
 
-> git pull origin [branch_name]
+> git push
 
-## Merge one branch into another
 
-> git checkout [target_branch]
-  git merge [source_branch]
 
-## Delete a branch
-
-> git branch -d [branch_name]
